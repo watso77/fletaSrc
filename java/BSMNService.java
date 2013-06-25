@@ -305,4 +305,11 @@ public interface BSMNService {
      * @param formVO BSMNMaintainMngFormVO
      */
     void saveBSMNMaintainMngD2(BSMNMaintainMngFormVO formVO);
+	
+	/**
+     * TEST
+     *
+     * @param formVO BSMNMaintainMngFormVO
+     */
+	 void searchTestD1(BSMNMaintainMngFormVO formVO);
 }
